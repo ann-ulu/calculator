@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/e51c37ae7f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <div class="container">
+    
+    <div class="calc-logo"><h2>Ann's Calculator</h2></div>
+    <div id="shapes-fall">
+      <i class="fa-solid fa-square"></i>
+      <i class="fa-solid fa-plus"></i>
+      <i class="fa-regular fa-square-minus"></i>
+      <i class="fa-solid fa-circle-plus"></i>
+      <i class="fa-solid fa-cubes-stacked"></i>
+      <i class="fa-solid fa-circle-half-stroke"></i>
+      <i class="fa-solid fa-shapes fa-rotate-90"></i>
+      <i class="fa-solid fa-ticket-simple"></i>
+      <i class="fa-solid fa-cubes-stacked"></i>
+      <i class="fa-solid fa-square-full"></i>
+      <i class="fa-regular fa-circle"></i>
+      <i class="fa-solid fa-lines-leaning fa-fade"></i>
+  </div>
+    <div class="calc_container-group">
+<div class="calc_container">
+<input class="child1" id="output-result" type="text" placeholder="0" readonly>
+<button onclick="clearCalculator()">CL</button>
+<button onclick="del()">DEL</button>
+<button onclick="display('%')">%</button>
+<button onclick="display('/')">/</button>
+<button onclick="display('7')">7</button>
+<button onclick="display('8')">8</button>
+<button onclick="display('9')">9</button>
+<button onclick="display('*')">X</button>
+<button onclick="display('4')">4</button>
+<button onclick="display('5')">5</button>
+<button onclick="display('6')">6</button>
+<button onclick="display('-')">-</button>
+<button onclick="display('1')">1</button>
+<button onclick="display('2')">2</button>
+<button onclick="display('3')">3</button>
+<button onclick="display('+')">+</button>
+<button onclick="display('0')">0</button>
+<button onclick="display('00')">00</button>
+<button id="calculate-it" onclick="calculate()">=</button>
+</div>
+</div>
+
+  </div>
+  <footer>
+    <div class="foot"><p>&copy; github.com/ann-ulu</p></div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html> 
