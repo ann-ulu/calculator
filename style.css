@@ -125,6 +125,7 @@ background: linear-gradient(90deg, rgba(121,13,24,0.8044467787114846) 0%, rgba(1
 }
 
 .calc_container{
+    overflow-x: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-content: center;
@@ -176,6 +177,7 @@ box-shadow:  5px 5px 10px #d5d5d5,
 
   }
   .calc_container-group{
+    overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
